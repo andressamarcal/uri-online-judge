@@ -1,10 +1,6 @@
-i = int(input())
-x = []
-for i in x:
-    if i == 0:
-        i = 1
-    elif i < 0:
-        i = 1
+for i in range(10):
+    data = int(input())
+    if data <= 0:
+        print("X[{}] = 1".format(i))
     else:
-        i.append[x]
-print(x)
+        print("X[{}] = {}".format(i, data))
